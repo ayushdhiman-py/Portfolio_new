@@ -15,14 +15,12 @@ function HeroSection() {
               {"I'm Ayush."}
             </span>
           </h1>
-          <p className="md:w-96 text-lg text-gray-300">
+          <p className="md:w-96 text-md text-gray-300">
             {
-              "I'm an India-based Fullstack developer with a passion for solving real-life problems through modern web applications."
-            }
-            <br />
-            <br />
+              "Based in India, Fullstack developer skilled in DSA & passion for solving real-life problems. "
+            }           
             {
-              "I am currently seeking an SDE position to utilize my skills. I am proficient in DSA, completed my BCA in 2023, and will finish my MCA in 2025."
+              "Completed my BCA in 2023 & MCA will be completed in 2025, seeking SDE roles."
             }
           </p>
           <Link
@@ -30,6 +28,14 @@ function HeroSection() {
             className="inline-block group"
           >
             <Title text="Contact Me 📧" />
+          </Link>
+          <br />
+          <Link
+            target="__blank"
+            href={"https://drive.google.com/file/d/1PbO4vDg4pFD2xwuHnGOJ9EZNhrDnrjkA/view?usp=drivesdk"}
+            className="inline-block group"
+          >
+            <Title text="See my Resume 📜" />
           </Link>
         </div>
         <div className="relative">
