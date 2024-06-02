@@ -17,7 +17,12 @@ function HeroSection() {
           </h1>
           <p className="md:w-96 text-lg text-gray-300">
             {
-              "Based in India, I'm a Fullstack developer passionate about solving real-life problems and creating modern web applications that users love. I am currently seeking an SDE position to further apply my skills"
+              "I'm an India-based Fullstack developer with a passion for solving real-life problems through modern web applications."
+            }
+            <br />
+            <br />
+            {
+              "I am currently seeking an SDE position to utilize my skills. I am proficient in DSA, completed my BCA in 2023, and will finish my MCA in 2025."
             }
           </p>
           <Link

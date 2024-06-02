@@ -13,12 +13,12 @@ function Page() {
         <Navbar />
         <HeroSection />
       </div>
-      <div className="max-w-7xl mx-auto p-10 mt-0">
+      <div className="max-w-7xl mx-auto p-0 mt-0">
         <Skills />
         <br />
         <Projects />
         <br />
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );

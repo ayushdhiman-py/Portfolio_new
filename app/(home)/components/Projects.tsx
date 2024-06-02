@@ -68,12 +68,12 @@ function Projects() {
     },
   ];
   return (
-    <div className="py-10 p-5 sm:p-0 gap-4">
+    <div className=" p-5 sm:p-0 gap-4 border-t">
       <Title
         text="Projects 🚧"
-        className="flex flex-col items-center justify-center rotate-3"
+        className="flex flex-col items-center justify-center rotate-3 p-10"
       />
-      <div className="grid grid-cols-1 sm:grid-cols-2 pt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2">
         {projects.map((project, idx) => {
           return (
             <Link href={project.link} key={idx}>

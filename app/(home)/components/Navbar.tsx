@@ -11,18 +11,18 @@ function Navbar() {
       icon: FaLinkedin,
     },
     {
-      link: "https://www.linkedin.com/in/aayushdhimann/",
+      link: "https://github.com/ayushdhiman-py",
       label: "Github",
       icon: FaGithub,
     },
     {
-      link: "https://www.linkedin.com/in/aayushdhimann/",
+      link: "https://leetcode.com/u/aayushdhimann/",
       label: "LeetCode",
       icon: SiLeetcode,
     },
   ];
   return (
-    <nav className="py-10 flex justify-between items-center animate-move-down">
+    <nav className="py-10 flex justify-between items-center animate-move-down" >
       <h1 className="text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2 hover:rotate-2 hover:scale-125">
         Ayush Dhiman 🧑🏻‍💻
       </h1>
