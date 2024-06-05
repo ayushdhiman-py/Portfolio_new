@@ -8,17 +8,10 @@ import Image from "next/image";
 function Projects() {
   const projects = [
     {
-      title: "Portfolio",
-      tech: [
-        "JavaScript",
-        "ReactJS",
-        "NextJS",
-        "TypeScript",
-        "Framer-Motion",
-        "TailwindCss",
-      ],
-      link: "http://localhost:3000",
-      cover: "/p1.png",
+      title: "Player-Buddy",
+      tech: ["JavaScript", "ReactJS", "NextJS", "TypeScript", "TailwindCss"],
+      link: "https://player-buddy.onrender.com/",
+      cover: "/p2.png",
 
       // background: "bg-red-500",
     },
@@ -32,39 +25,10 @@ function Projects() {
         "Framer-Motion",
         "TailwindCss",
       ],
-      link: "http://localhost:3000",
+      link: "https://ayush-dhiman-portfolio-egnj.onrender.com/",
       cover: "/p1.png",
 
       // background: "bg-indigo-500",
-    },
-    {
-      title: "Portfolio",
-      tech: [
-        "JavaScript",
-        "ReactJS",
-        "NextJS",
-        "TypeScript",
-        "Framer-Motion",
-        "TailwindCss",
-      ],
-      link: "http://localhost:3000",
-      cover: "/p1.png",
-
-      // background: "bg-indigo-500",
-    },
-    {
-      title: "Portfolio",
-      tech: [
-        "JavaScript",
-        "ReactJS",
-        "NextJS",
-        "TypeScript",
-        "Framer-Motion",
-        "TailwindCss",
-      ],
-      link: "http://localhost:3000",
-      cover: "/p1.png",
-      // background: "bg-red-500",
     },
   ];
   return (
