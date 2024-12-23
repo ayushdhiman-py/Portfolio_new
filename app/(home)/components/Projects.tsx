@@ -7,6 +7,14 @@ import Image from "next/image";
 
 function Projects() {
   const projects = [
+     {
+      title: "Ask My PDF",
+      tech: ["JavaScript", "ReactJS", "NextJS", "TypeScript", "TailwindCss", "ConvexDB", "GenerativeAi", "LangChain", "Google-generative AI"],
+      link: "https://ai-pdf-ayushdhiman.vercel.app/",
+      cover: "/p3.png",
+
+      // background: "bg-red-500",
+    },
     {
       title: "Player-Buddy",
       tech: ["JavaScript", "ReactJS", "NextJS", "TypeScript", "TailwindCss"],
