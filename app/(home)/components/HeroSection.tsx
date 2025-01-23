@@ -32,7 +32,7 @@ function HeroSection() {
           <br />
           <Link
             target="__blank"
-            href={"https://drive.google.com/file/d/1peZ4070pNSKpkMtBWKjQeNgb7VJqhUHm/view"}
+            href={"https://drive.google.com/file/d/1xb3DYns4cOY02s1bH2u1bYTW4qTwlN6j/view?usp=drive_link"}
             className="inline-block group"
           >
             <Title text="See my Resume 📜" />
